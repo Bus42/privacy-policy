@@ -3,7 +3,7 @@ import React from "react";
 const PP = () => {
   return (
     <div className="privacy-policy-container">
-      <h1>Privacy Policy</h1>
+      <h1>Studio42 Dev Privacy Policy</h1>
       <p>Last updated: May 21, 2020</p>
       <p>
         This Privacy Policy describes Our policies and procedures on the
