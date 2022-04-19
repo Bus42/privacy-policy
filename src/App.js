@@ -6,7 +6,7 @@ function App() {
   return (
     <div data-testid="App" >
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="Studio42 rocket logo" />
       </header>
       <PrivacyPolicy />
     </div>
