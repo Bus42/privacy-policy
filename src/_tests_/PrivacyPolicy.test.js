@@ -8,6 +8,12 @@ describe("Privacy Policy component", () => {
         expect(privacyPolicy).toBeInTheDocument();
     });
 
+    it("Renders the Studio42 logo", () => {
+        render(<PrivacyPolicy />);
+        const logo = screen.getByAltText(/Studio42 rocket logo/i);
+        expect(logo).toBeInTheDocument();
+    })
+
     it("contains a contact link", async () => {
         render(<PrivacyPolicy />);
         const contactLink = screen.getByText(/greg@studio42dev.com/i, { selector: "a" });
