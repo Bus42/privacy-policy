@@ -2,7 +2,7 @@ import React from "react";
 
 const PP = () => {
   return (
-    <div className="container white-text text-darken-2">
+    <div className="privacy-policy-container">
       <h1>Privacy Policy</h1>
       <p>Last updated: May 21, 2020</p>
       <p>
@@ -461,11 +461,9 @@ const PP = () => {
       </p>
       <h1>Contact Us</h1>
       <p>
-        If you have any questions about this Privacy Policy, You can contact us:
+        If you have any questions about this Privacy Policy, You can contact us
+        at <a href="mailto:greg@studio42dev.com">Greg@Studio42Dev.com</a>
       </p>
-      <ul>
-        <li>By email: greg@studio42dev.com</li>
-      </ul>
     </div>
   );
 };
